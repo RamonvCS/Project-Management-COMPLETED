@@ -4,15 +4,28 @@ The Project Management Platform is a web-based application designed to facilitat
 
 ## Table of Contents
 
+- [Overview](#overview)
+- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contribution](#contribution)
-- [Members Repositories](#member)
+- [Technologies](#technologies)
+- [File Structure](#file-structure)
+- [Contributing](#contributing)
+- [Members Repositories](#members-repositories)
 - [Contact](#contact)
 - [License](#license)
 
-## Installation
+## Overview
+This project management application is designed to help manage tasks, projects, and teams efficiently. It provides a user-friendly interface for creating, updating, and managing various project-related activities.
 
+## Features
+- Task creation and management
+- Project tracking
+- Team collaboration tools
+- Real-time updates
+- User authentication and authorization
+
+## Installation
 There is no installation required for the Project Management Platform. Simply access the platform through your preferred web browser by navigating to the URL where it is hosted.
 
 To use the Project Management Platform, follow these steps:
@@ -38,34 +51,40 @@ To use the Project Management Platform, follow these steps:
    - Use the dashboard or the projects page to view all your projects.
    - Click on a project to view its details, including its tasks, status, and options to edit or delete the project or its tasks.
 
-## Contribution
+## Technologies
+### Frontend
+- **React**: JavaScript library for building user interfaces
+- **TypeScript**: Superset of JavaScript that adds static types
+- **CSS**: Styling the application
+- **HTML**: Structuring the web pages
 
-Contributions are welcome! If you want to contribute to the front-end of the Project Management Platform, here’s how you can start:
+### Backend
+- **Node.js**: JavaScript runtime built on Chrome's V8 JavaScript engine
+- **Express**: Web application framework for Node.js
+- **MongoDB**: NoSQL database for storing project data
 
-1. Fork the project repository.
-2. Create a new branch for your feature: `git checkout -b feature/your-feature`.
-3. Commit your changes: `git commit -m 'Add some front-end feature'`.
-4. Push the branch to your fork: `git push origin feature/your-feature`.
-5. Submit a pull request to the original repository.
+### Others
+- **Git**: Version control system for tracking changes in the source code
+- **NPM**: Package manager for JavaScript
+- **Webpack**: Module bundler for JavaScript applications
 
-## Member Repositories
-
-- [Genesis Ojeda](https://github.com/DevQueenPR/project_management)
-- [Ramon Valentin](https://github.com/RamonvCS/Project-Management-COMPLETED)
-- [Abimael Santa](https://github.com/Cruzade-ab/ProjectManagementFront)
-- [Abielmelex](https://github.com/Abielmelex/Project-Management)
-
-## Contact
-
-Connect with the team members on LinkedIn:
-
-- [Genesis Ojeda (Database Specialist)](https://www.linkedin.com/in/g%C3%A9nesis-ojeda-451576302/)
-- [Ramon Valentin (Back-end Developer)](https://www.linkedin.com/in/ramonvalentinrivera)
-- [Abimael Santa (Front-end Developer)](https://www.linkedin.com/in/abimaelsanta/)
-- [Abielmelex (Back-end Developer)](ABIELMELEX)
-
-## License
-
-This project is not currently licensed. If you'd like to use it, please reach out to us for permission.
-
-Alternatively, you can choose to apply a license in the future by selecting one from [ChooseALicense.com](https://choosealicense.com/).
+## File Structure
+```plaintext
+project_management_front
+│
+├── public
+├── src
+│   ├── components
+│   │   ├── Cards
+│   │   ├── Containers
+│   │   ├── Modal
+│   │   └── Navbar
+│   │       └── Navbar.tsx
+│   ├── forms
+│   ├── interfaces
+│   ├── App.tsx
+│   └── index.tsx
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── tsconfig.json
