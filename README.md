@@ -1,6 +1,6 @@
 # Project Organizer
 
-The Project Management Platform is a web-based application designed to facilitate project management tasks efficiently. It enables users to swiftly create projects, add tasks to projects, and effortlessly manage projects, all without requiring user accounts. With its intuitive front-end interface, users can visually interact with their projects, making the management process more engaging and user-friendly.
+The Project Management Platform is a web-based CRUD (Create, Read, Update, Delete) application designed to facilitate project management tasks efficiently. It enables users to swiftly create projects, add tasks to projects, and effortlessly manage projects, all without requiring user accounts. With its intuitive front-end interface, users can visually interact with their projects, making the management process more engaging and user-friendly.
 
 ## Table of Contents
 
@@ -15,7 +15,8 @@ The Project Management Platform is a web-based application designed to facilitat
 - [Contact](#contact)
 - [License](#license)
 
-
+## Overview
+This project management application is designed to help manage tasks, projects, and teams efficiently. It provides a user-friendly interface for creating, updating, and managing various project-related activities.
 
 ## Features
 - Task creation and management
