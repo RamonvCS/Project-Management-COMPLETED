@@ -15,8 +15,7 @@ The Project Management Platform is a web-based application designed to facilitat
 - [Contact](#contact)
 - [License](#license)
 
-## Overview
-This project management application is designed to help manage tasks, projects, and teams efficiently. It provides a user-friendly interface for creating, updating, and managing various project-related activities.
+
 
 ## Features
 - Task creation and management
